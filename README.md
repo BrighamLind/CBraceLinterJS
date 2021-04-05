@@ -1,14 +1,16 @@
-# Curly Brace Linter (JavaScript)
-###### Using Jest
+# Curly Brace Linter
+###### JavaScript & Jest
 
 ### Setup
 ```
 npm install
-npm test
 ```
 
-All 12 tests should pass
-
-
+### Run
+```
+npm test
+```
+---
 Thanks for the opportunity!
+
 Brigham
