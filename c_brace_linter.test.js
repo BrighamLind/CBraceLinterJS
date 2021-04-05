@@ -49,3 +49,7 @@ test("Returns true when null is given as the function argument", () => {
 test("Returns true when undefined is given as the function argument", () => {
   expect(cBraceLinter(dd.undefinedStr)).toBe(true);
 });
+
+test("Returns true when a number is given as the function argument", () => {
+  expect(cBraceLinter(dd.number)).toBe(true);
+});

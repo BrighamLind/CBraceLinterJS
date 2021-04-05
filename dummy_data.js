@@ -10,3 +10,4 @@ export const nonBrcktChars = "{abc...xyz}";
 export const randCharsProperPair = "nf912RN) f|in2!0~+*98f 0j)^@^)(_){||f0hf *(H901u!)(*$^&|!@5~/-*6198!@}$033a3-*/^&*!$5sd&)1f68asd"; // extension of the required nonBrcktChars test
 export const nullStr = null;
 export const undefinedStr = undefined;
+export const number = 42;

@@ -1,7 +1,12 @@
 const cBraceLinter = (brcktStr) => {
   let isProperSyntax = false;
 
-  if (brcktStr != null && brcktStr != undefined && brcktStr != "") {
+  if (
+    brcktStr != null &&
+    brcktStr != undefined &&
+    brcktStr != "" &&
+    typeof brcktStr === "string"
+  ) {
     const [openCBraceCt, closeCBraceCt] = [
       brcktStr.split("{").length - 1,
       brcktStr.split("}").length - 1,
